@@ -1,0 +1,17 @@
+#fora{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+}
+#cor2{
+    background-color: red;
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+#cor3{
+    background-color: red;
+    width: 200px;
+    height: 250px;
+    float: right;
+}

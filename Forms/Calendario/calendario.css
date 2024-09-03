@@ -1,0 +1,56 @@
+.faixa{
+    background-color: firebrick;
+    width: 709px;
+    height: 100px;
+}
+.meiot{
+    text-align:center;
+}
+.titulo{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.dia{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.esq{
+    float: left;
+}
+.borda{
+    border: 1px black solid;
+}
+.dial{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.dian{
+    font-size: xx-large;
+}
+.semana{
+    position: absolute;
+    font-size: xx-large;
+    top: 70px;
+    left: 49px;
+    color: whitesmoke;
+}
+.esp{
+    left: 150px;
+}.espa{
+    left: 250px;
+}
+.espac{
+    left: 350px;
+}
+.espaco{
+    left: 450px;
+}
+.espacos{
+    left: 550px;
+}
+.espacoso{
+    left: 650px;
+}

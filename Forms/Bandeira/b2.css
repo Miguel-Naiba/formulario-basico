@@ -1,0 +1,44 @@
+/* Cores */
+.branco{
+    background-color: white;
+}
+.azulforte{
+    background-color: blue;
+}
+.vermelho{
+    background-color: red;
+}
+/* Classes */
+.bandeira{
+    width: 600px;
+    height: 420px;
+    display: block;
+    border: 2px solid black;
+}
+.lisvert{
+    width: 100px;
+    height: 420px;
+    position: relative;
+    left: 150px;
+}
+.lishor{
+    width: 600px;
+    height: 100px;
+    display: block;
+    position: relative;
+    top: -260px;
+}
+.lisverti{
+    width: 80px;
+    height: 420px;
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+}
+.lishori{
+    width: 600px;
+    height: 90px;
+    display: block;
+    position: relative;
+    bottom: 415px;
+}

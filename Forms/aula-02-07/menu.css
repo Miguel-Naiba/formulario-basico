@@ -1,0 +1,35 @@
+#menu ul li{
+    list-style-type: none;
+    float: left;
+}
+#menu ul li a{
+    background-color: darkgray;
+    padding: 5px;   
+}
+#menu ul li a:hover{
+    background-color:darkcyan;
+}
+.bloco{
+    width: 50%;
+    height: 500px;
+    display: block;
+    background-color: darkblue;   
+}
+.bloco img{
+    width: 45%;
+}
+.bloco p{
+    width: 45%;
+    margin: 5%;
+}
+.dir{
+    float: right;
+}
+.esq{
+    float: left;
+}
+.quebra{
+    clear: both;
+    margin-top: 20px;
+}
+

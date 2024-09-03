@@ -1,0 +1,18 @@
+#fora{
+    background-color: yellow;
+    width: 600px;
+    height: 250px;
+}
+#vermelho{
+    background-color: red;
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+#verde{
+    background-color: green;
+    width: 200px;
+    height: 250px;
+    float: right;
+}
+

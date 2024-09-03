@@ -1,0 +1,20 @@
+#fora{
+    background-color: white;
+    width: 600px;
+    height: 250px;
+}
+#laranja{
+    background-color: orange;
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+#verde{
+    background-color: green;
+    width: 200px;
+    height: 250px;
+    float: right;
+}
+
+
+

@@ -1,0 +1,42 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+table, th, td {
+    text-align: center;
+}
+tr {
+    height: 35px;
+    background-color: grey;
+}
+
+.roxo{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: green;
+}
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.ciano{
+    background-color: aqua;
+}
+.amarelo{
+    background-color: yellow;
+}
+.mater{
+    width: 100%;
+    display: block;
+    float: left;
+    height: 20px;
+}
+.nome{
+    width: 100%;
+    display: block;
+    float: left;
+    height: 20px;
+}

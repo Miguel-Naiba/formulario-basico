@@ -1,0 +1,77 @@
+/* CORES */
+.vermelho{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.roxo{
+    background-color: purple;
+}
+
+.branco{
+    background-color: white;
+}
+.laranja{
+    background-color: orange;
+}
+/* DIREÇÃO */
+.esq{
+    float: left;
+}
+.dir{
+    float: right;
+}
+.margin{
+    margin-top: 5px;
+}
+.margindir{
+    margin-left: 5px;
+}
+.margincim{
+    margin-top: 65px;
+}
+.margincima{
+    margin-top: 195px;
+}
+.ciano{
+    background-color: aquamarine;
+}
+/* ESPECIFICAÇÕES */
+.elemento{
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    position: relative;
+}
+/* ID */
+.H1{
+    position: absolute;
+    left: 22px;
+    top: 6px;
+    font-size:large;
+}
+.hum{
+    position: absolute;
+    bottom: 35px;
+    left: 47px;
+    font-size: smaller;
+}
+.nome{
+    font-size:x-small;
+    position: absolute;
+    top: 24px;
+    left: 6px;
+}
+.massa{
+    font-size: xx-small;
+    position: absolute;
+    top: 33px;
+    left: 16px;
+}

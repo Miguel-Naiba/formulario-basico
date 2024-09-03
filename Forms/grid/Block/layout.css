@@ -1,0 +1,61 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+    background-color: white;
+}
+header{
+    background-image: url(https://p6.focus.de/img/kultur/kino_tv/id_10117746/compressed-6bed831b-0559-4332-a4e9-698f09ffad5e201903-400081-1-048.jpg?im=Resize%3D%28800%2C401%29&impolicy=perceptual&quality=mediumHigh&hash=af871a53ecd09b38816294d3cc9eb3eadc7b65c73061050625325c01970215ae);
+}
+main{
+    width: 100%;
+    height: 700px;
+    display: block;
+    float: left;
+    background: rgb(255,239,0);
+background: radial-gradient(circle, rgba(255,239,0,1) 0%, rgba(255,152,7,1) 41%);
+}
+footer{
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+    background-color: lightslategrey;
+}
+footer section{
+    width: 33.3%;
+    height: 300px;
+    float: left;
+    display: block;
+    background-color: orange;
+}
+footer section:first-child{
+      background-color: yellow;
+}
+footer section:last-child{
+    background-color: yellow;
+}
+.alinhado{
+    text-align: center;
+}
+#bs{
+    image-rendering:optimizeSpeed;
+}
+.branco{
+    color: white;
+}
+#teste{
+    position:relative;
+}
+.esp{
+    margin-left: 5px;
+}
+.imgf{
+    margin-left: 50px;
+}

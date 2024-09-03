@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+    <form>
+    <fieldset id="field" class="fundo">
+        <legend>Cadastro</legend>
+        <div id="nome">
+            <label for="text">Nome:</label>
+            <input type="text" name="Nome" id="" class="fundocaixa bordas">
+        </div>
+        <div id="sobrenome">
+            <label for="text">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="" class="fundocaixa">
+        </div>
+        <div id="email">
+            <label for="email">E-mail:</label>
+            <input type="email" name="Email" id="" class="fundocaixa">
+        </div>
+        <div id="senha">
+            <label for="Senha">Senha:</label>
+            <input type="password" class="fundocaixa">
+        </div>
+        <div id="data">
+            <label for="Datanasc">Data Nasc</label>
+            <input type="date" name="Data" id="" class="fundocaixa">
+        </div>
+        <div id="comida">
+            <label for="">Comida Favorita:</label>
+        </div>
+        <div id="comidas">
+            <ul>
+                <li><input type="checkbox" name="turno[]" id="">Lasanha</li>
+                <li><input type="checkbox" name="turno[]" id="">Pizza</li>
+                <li><input type="checkbox" name="turno[]" id="">Massas em geral</li>
+                <li><input type="checkbox" name="turno[]" id="">Sushi</li>
+                <li><input type="checkbox" name="turno[]" id="">Xis</li>
+            </ul>
+        </div>
+        <div id="descreva">
+            <label for="caracteristicas" class="descreva">Se descreva:</label>
+        </div>
+        <div id="texto">
+            <textarea name="" id="" cols="30" rows="10" class="fundocaixa texto"></textarea>
+        </div>
+        <div id="aceita">
+            <label for="aceita">Aceita os termos?</label>
+            <ul>
+                <li><input type="radio" name="nossa" id="">Sim</li>
+                <li><input type="radio" name="nossa" id="">Não</li>
+            </ul>
+        </div>
+        <input type="reset" value="Resetar">
+                    
+    </fieldset>
+    </form>
+    <script src="atividade.js"></script>
+</body>
+</html>

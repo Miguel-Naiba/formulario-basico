@@ -1,0 +1,59 @@
+.azulforte{
+    background-color: blue;
+}
+.branco{
+    background-color: white;
+}
+.vermelho{
+    background-color: red;
+}
+.preto{
+    background-color: black;
+}
+.amarelo{
+    background-color: yellow;
+}
+.azulforte{
+    background-color: blue;
+}
+.laranja{
+    background-color: orange;
+}
+.verde{
+    background-color: green;
+}
+.branco{
+    background-color: white;
+}
+.lishor{
+    width: 600px;
+    height: 100px;
+    display: block;
+    position: relative;
+    top: 150px;
+}
+.lisvert{
+    width: 100px;
+    height: 420px;
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+}
+.lin3{
+    width: 600px;
+    height: 140px;
+    display: block;
+    float: left;
+}
+.col3{
+    width: 200px;
+    height: 420px;
+    display: block;
+    float: left;
+}
+.bandeira{
+    width: 600px;
+    height: 420px;
+    border: 2px solid black;
+    display: block;
+}

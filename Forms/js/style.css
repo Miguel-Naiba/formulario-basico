@@ -1,0 +1,19 @@
+.corbutton{
+    background-color:darkcyan;
+}
+.campo{
+    background-color: yellow;
+    border: 3px dotted blue;
+    color: red;
+    padding: 5px;
+    font-size: 16px;
+    font-family: serif;
+}
+.multpla{
+    background-color: black;
+    font-size: 40px;
+    color: darkorange;
+}
+.borda{
+    border: black 3px;
+}

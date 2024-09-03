@@ -1,0 +1,73 @@
+.item1 { 
+    grid-area: header; 
+    height: 300px; 
+}
+.item2 { 
+    grid-area: main; 
+    height: 650px;
+}
+.item3 {
+     grid-area: footer; 
+     height: 300px;
+}
+.grid-container {
+  display: grid;
+  width: 99,9%;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  background-color: blue;
+}
+
+#vertical .grid-container{
+    width: 400px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(1,350px);
+}
+.grid-container > div {
+  background-color: lightblue;
+  
+  padding: 20px 0;
+  font-size: 30px;
+}
+#footer section{
+  width: 33.3%;
+  height: 300px;
+  float: left;
+  display: block;
+  background-color: beige;
+}
+#footer section:first-child{
+    background-color: white;
+}
+#footer section:last-child{
+  background-color: white;
+}
+.meio{
+  text-align: center;
+}
+.item1{
+  background-image: url(https://www.digio.com.br/blog/wp-content/uploads/2022/07/header-01.png);
+}
+#foto{
+  position: absolute;
+  left: 300px;
+}
+#text{
+  position: absolute;
+  text-align: center;
+  font-size:larger;
+  top: 780px;
+}
+.cor{
+  color: darkblue;
+  position: absolute;
+  left: 500px;
+  top: 120px;
+}
+.foot{
+  left: 70px;
+  position: relative;
+}
